@@ -4,7 +4,7 @@ This project alows you to use a Raspberry Pi Zero 2W as a bad USB with usb mass 
 
 Features:
 - USB HID with baisic keystroke injection
-- USB mass storage with USb boot
+- USB mass storage with USB boot
 - WI-FI & Bluetooth
 
 ## Setup:

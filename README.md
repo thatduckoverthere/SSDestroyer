@@ -17,28 +17,28 @@ git clone https://github.com/thatduckoverthere/SSDestroyer
 
 - Create and foramt the binaty files that we will use as the "flash drives". This will take some time.
 ```
-sudo dd bs=1M if=/dev/zero of=/piusb0.bin count=2048 
+sudo dd bs=1M if=/dev/zero of=/piusb0.bin count=16384
 ```
 ```
 sudo mkdosfs /piusb0.bin -F 32 -I
 ```
 
 ```
-sudo dd bs=1M if=/dev/zero of=/piusb1.bin count=2048 
+sudo dd bs=1M if=/dev/zero of=/piusb1.bin count=8192 
 ```
 ```
 sudo mkdosfs /piusb1.bin -F 32 -I
 ```
 
 ```
-sudo dd bs=1M if=/dev/zero of=/piusb2.bin count=2048 
+sudo dd bs=1M if=/dev/zero of=/piusb2.bin count=4096
 ```
 ```
 sudo mkdosfs /piusb2.bin -F 32 -I
 ```
 
 ```
-sudo dd bs=1M if=/dev/zero of=/piusb3.bin count=2048 
+sudo dd bs=1M if=/dev/zero of=/piusb3.bin count=4096
 ```
 ```
 sudo mkdosfs /piusb3.bin -F 32 -I
